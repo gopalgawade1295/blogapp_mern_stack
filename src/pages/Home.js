@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Typography, TextField, Card, CardContent, Button, Box, Grid, Toolbar, Modal, useMediaQuery } from '@mui/material'
+import { Typography, TextField, Button, Box, Grid, Toolbar, Modal, useMediaQuery } from '@mui/material'
 import CloseIcon from '@mui/icons-material/Close'
 import DeleteIcon from '@mui/icons-material/Delete'
 import EditIcon from '@mui/icons-material/Edit'
@@ -17,17 +17,6 @@ const SHeading = styled(Typography)({
 
 const STypography1 = styled(Typography)({
     fontFamily: 'Roboto Mono'
-})
-
-const SCard = styled(Card)({
-    minWidth: '250px',
-    maxWidth: '500px',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    marginTop: '8px',
-    marginBottom: '16px',
-    borderRadius: '8px',
-    backgroundColor: 'rgba(255, 255, 255, 0.90)'
 })
 
 const SButton1 = styled(Button)({

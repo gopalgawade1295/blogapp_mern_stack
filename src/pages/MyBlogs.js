@@ -1,22 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import { Typography, TextField, Card, CardContent, Button, Box, Toolbar, Grid, Modal, useMediaQuery } from '@mui/material'
+import { Typography, TextField, Button, Box, Toolbar, Grid, Modal, useMediaQuery } from '@mui/material'
 import CloseIcon from '@mui/icons-material/Close'
 import DeleteIcon from '@mui/icons-material/Delete'
 import EditIcon from '@mui/icons-material/Edit'
 import styled from '@emotion/styled'
 import { useDispatch, useSelector } from 'react-redux'
 import { bloglist, addBlog, editBlog, deleteBlog } from '../redux/actions/blogActions'
-
-const SCard = styled(Card)({
-  minWidth: '250px',
-  maxWidth: '500px',
-  marginLeft: 'auto',
-  marginRight: 'auto',
-  marginTop: '8px',
-  marginBottom: '16px',
-  borderRadius: '8px',
-  backgroundColor: 'rgba(255, 255, 255, 0.90)'
-})
 
 const SButton1 = styled(Button)({
   color: '#58381f',
